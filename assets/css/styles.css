@@ -147,18 +147,45 @@ header nav ul {
 }
 
 #projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-areas:
+        "a a a a"
+        "b b c c"
+        "d d e e";
+    gap: 2%;
 }
 
-#project-box-1 {
-    flex-grow: 6;
+.project-card {
+    position: relative;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border: 0.1px solid black;
 }
 
-.project-img {
-    height: 25%;
-    width: 25%;
-    object-fit: cover;
+.project-name {
+    position: relative;
+    border: 1px solid black;
+}
+
+#card-1 {
+    grid-area: a;
+    background-image: url("https://images.unsplash.com/photo-1570303345338-e1f0eddf4946?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+    background-size: cover;
+}
+
+#card-2 {
+    grid-area: b;
+}
+
+#card-3 {
+    grid-area: c;
+}
+
+#card-4 {
+    grid-area: d;
+}
+
+#card-5 {
+    grid-area: e;
 }
