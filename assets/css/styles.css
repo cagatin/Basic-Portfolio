@@ -1,0 +1,164 @@
+:root {
+    --theme-color: #f5cb5c;
+    --text-theme: #0d3b66;
+    --text-shadow-main: 1.5px 1px lightgrey;
+}
+
+body {
+    margin: 2%;
+    background-color: #eaf4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for the Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--theme-color);
+
+}
+
+header h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: 2%;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--theme-color);
+    text-decoration-thickness: 0.15em;
+}
+
+#name {
+    color: var(--text-theme);
+    text-shadow: var(--text-shadow-main);
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+.nav-item {
+    margin-top: 3%;
+    padding: 0 5%;
+    display: inline-block;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Styles for the Introduction Image/Paragraph */
+#intro-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 0;
+    /* border-bottom: 1px solid black; */
+}
+
+#main-img {
+    display: flex;
+    background-color: var(--theme-color);
+    border-radius: 100%;
+    margin: 5% 5%;
+    overflow: hidden;
+    transform: scale(0.9);
+    box-shadow: 5px 2px 2px lightgrey;
+}
+
+#main-img img {
+    position: relative;
+    top: 7%;
+    left: 4.5%;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+    /* filter: grayscale(100%); */
+}
+
+#main-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-desc h2 {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 250%;
+    padding: 2%;
+    text-align: left;
+    text-shadow: var(--text-shadow-main);
+}
+
+/* About Me Section */
+#about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    border-bottom: 2px solid var(--theme-color);
+}
+
+#about-container h2 {
+    font-size: 175%;
+    text-decoration: underline 2px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-bottom: 2%;
+}
+
+.section-heading {
+    font-size: 120%;
+    text-align: center;
+    border-right: 1px solid var(--theme-color);
+}
+
+.section-heading:hover {
+    text-decoration: underline var(--theme-color) 0.15em;
+    cursor: default;
+}
+
+.about-text {
+    margin-left: 3%;
+}
+
+/* Styling for the Projects section */
+#projects-header {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: 2px underline var(--theme-color);
+    margin-bottom: 2%;
+}
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#project-box-1 {
+    flex-grow: 6;
+}
+
+.project-img {
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
