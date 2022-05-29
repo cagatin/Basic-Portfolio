@@ -3,6 +3,7 @@
     --text-theme: #0d3b66;
     --default-border: 1px solid black;
     --header-font: 'Montserrat', sans-serif;
+    --hover-decoration: underline var(--theme-color) 0.15em;
 }
 
 body {
@@ -20,7 +21,6 @@ header {
     align-items: center;
     padding-bottom: 0.3rem;
     border-bottom: 2px solid var(--theme-color);
-
 }
 
 header h1 {
@@ -34,9 +34,7 @@ header h1 {
 }
 
 .nav-item a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--theme-color);
-    text-decoration-thickness: 0.15em;
+    text-decoration: var(--hover-decoration);
 }
 
 #name {
@@ -135,7 +133,7 @@ header nav ul {
 }
 
 .section-heading:hover {
-    text-decoration: underline var(--theme-color) 0.15em;
+    text-decoration: var(--hover-decoration);
     cursor: default;
 }
 
@@ -147,10 +145,15 @@ header nav ul {
 /* Styling for the Projects section */
 #projects-header {
     font-size: 200%;
+    font-weight: bold;
     text-align: center;
-    text-decoration: 2px underline var(--theme-color);
+    transition: all 0.2s;
     margin-bottom: 2%;
     font-family: var(--header-font);
+}
+
+#projects-header:hover {
+    text-decoration: underline var(--theme-color) 0.1em;
 }
 
 #projects-container {
@@ -182,6 +185,7 @@ header nav ul {
 
 .project-name {
     background-color: white;
+    font-weight: bolder;
     color: black;
     padding: 1% 2%;
     position: absolute;
