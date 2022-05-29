@@ -27,6 +27,11 @@ header h1 {
     font-size: 200%;
     font-weight: bold;
     font-family: var(--header-font);
+    transition: color 0.3s;
+}
+
+header h1:hover {
+    color: var(--theme-color);
 }
 
 .nav-item {
@@ -34,7 +39,7 @@ header h1 {
 }
 
 .nav-item a:hover {
-    text-decoration: var(--hover-decoration);
+    color: var(--theme-color);
 }
 
 #name {
@@ -123,7 +128,7 @@ header nav ul {
 }
 
 #about-container h2:hover {
-    text-decoration: underline var(--theme-color) 0.1em;
+    color: var(--theme-color);
 }
 
 .about-section {
@@ -159,7 +164,7 @@ header nav ul {
 }
 
 #projects-header:hover {
-    text-decoration: underline var(--theme-color) 0.1em;
+    color: var(--theme-color);
 }
 
 #projects-container {
