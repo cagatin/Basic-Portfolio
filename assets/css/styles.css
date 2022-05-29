@@ -1,7 +1,6 @@
 :root {
     --theme-color: #f5cb5c;
     --text-theme: #0d3b66;
-    --text-shadow-main: 1.5px 1px lightgrey;
     --default-border: 1px solid black;
 }
 
@@ -40,7 +39,6 @@ header h1 {
 
 #name {
     color: var(--theme-color);
-    /* text-shadow: var(--text-shadow-main); */
 }
 
 header nav ul {
@@ -66,7 +64,6 @@ header nav ul {
     display: grid;
     grid-template-columns: 2fr 2fr;
     margin-bottom: 0;
-    /* border-bottom: 1px solid black; */
 }
 
 #main-img {
@@ -76,8 +73,9 @@ header nav ul {
     margin: 5% 5%;
     overflow: hidden;
     transform: scale(0.9);
-    box-shadow: 2px 1px 2px lightgrey;
+    box-shadow: 0 1em 3em -1em var(--theme-color);
 }
+
 
 #main-img img {
     position: relative;
@@ -86,7 +84,6 @@ header nav ul {
     height: 100%;
     width: 100%;
     transform: scale(1.2);
-    /* filter: grayscale(100%); */
 }
 
 #main-desc {
@@ -102,7 +99,6 @@ header nav ul {
     font-size: 250%;
     padding: 2%;
     text-align: left;
-    /* text-shadow: var(--text-shadow-main); */
 }
 
 /* About Me Section */
