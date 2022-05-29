@@ -1,7 +1,7 @@
 :root {
     --theme-color: #f5cb5c;
     --text-theme: #0d3b66;
-    --default-border: 1px solid black;
+    --bottom-border: 2px solid var(--theme-color);
     --header-font: 'Montserrat', sans-serif;
     --hover-decoration: underline var(--theme-color) 0.15em;
 }
@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 0.3rem;
-    border-bottom: 2px solid var(--theme-color);
+    border-bottom: var(--bottom-border);
 }
 
 header h1 {
@@ -65,7 +65,9 @@ header nav ul {
 #intro-container {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    border-bottom: var(--bottom-border);
     margin-bottom: 0;
+    padding-bottom: 3%;
 }
 
 #main-img {
@@ -109,14 +111,19 @@ header nav ul {
     display: flex;
     flex-direction: column;
     margin: 2% auto;
-    border-bottom: 2px solid var(--theme-color);
+    padding-bottom: 3%;
+    border-bottom: var(--bottom-border);
 }
 
 #about-container h2 {
-    font-size: 175%;
-    text-decoration: underline 2px;
+    font-size: 200%;
     text-align: center;
     margin-bottom: 2%;
+    font-family: var(--header-font);
+}
+
+#about-container h2:hover {
+    text-decoration: underline var(--theme-color) 0.1em;
 }
 
 .about-section {
@@ -145,9 +152,8 @@ header nav ul {
 /* Styling for the Projects section */
 #projects-header {
     font-size: 200%;
-    font-weight: bold;
     text-align: center;
-    transition: all 0.2s;
+    transition: all 0.1s;
     margin-bottom: 2%;
     font-family: var(--header-font);
 }
@@ -163,6 +169,8 @@ header nav ul {
         "b b c c"
         "d d e e";
     gap: 2%;
+    border-bottom: var(--bottom-border);
+    padding-bottom: 3%;
 }
 
 .project-card {
