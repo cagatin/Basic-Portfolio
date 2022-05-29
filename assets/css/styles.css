@@ -58,7 +58,7 @@ header nav ul {
 
 .nav-item a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Styles for the Introduction Image/Paragraph */
@@ -162,7 +162,7 @@ header nav ul {
 .project-card {
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 150px;
     width: 100%;
     border: 0.1px solid black;
     margin-bottom: 3%;
@@ -179,6 +179,7 @@ header nav ul {
 
 .project-name {
     background-color: white;
+    color: black;
     padding: 1% 2%;
     position: absolute;
     opacity: 0.8;
