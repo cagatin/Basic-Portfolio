@@ -2,6 +2,7 @@
     --theme-color: #f5cb5c;
     --text-theme: #0d3b66;
     --default-border: 1px solid black;
+    --header-font: 'Montserrat', sans-serif;
 }
 
 body {
@@ -25,6 +26,7 @@ header {
 header h1 {
     font-size: 200%;
     font-weight: bold;
+    font-family: var(--header-font);
 }
 
 .nav-item {
@@ -39,6 +41,7 @@ header h1 {
 
 #name {
     color: var(--theme-color);
+    font-family: var(--header-font);
 }
 
 header nav ul {
@@ -57,6 +60,7 @@ header nav ul {
 .nav-item a {
     text-decoration: none;
     color: white;
+    font-family: var(--header-font);
 }
 
 /* Styles for the Introduction Image/Paragraph */
@@ -99,6 +103,7 @@ header nav ul {
     font-size: 250%;
     padding: 2%;
     text-align: left;
+    font-family: var(--header-font);
 }
 
 /* About Me Section */
@@ -126,6 +131,7 @@ header nav ul {
     font-size: 120%;
     text-align: center;
     border-right: 1px solid var(--theme-color);
+    font-family: var(--header-font);
 }
 
 .section-heading:hover {
@@ -144,6 +150,7 @@ header nav ul {
     text-align: center;
     text-decoration: 2px underline var(--theme-color);
     margin-bottom: 2%;
+    font-family: var(--header-font);
 }
 
 #projects-container {
@@ -179,6 +186,7 @@ header nav ul {
     padding: 1% 2%;
     position: absolute;
     opacity: 0.8;
+    font-family: var(--header-font);
 }
 
 
