@@ -386,4 +386,14 @@ header nav ul {
     #intro-container section {
         display: none;
     }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-heading {
+        text-decoration: underline 2px var(--theme-color);
+        border-right: none;
+    }
 }
