@@ -278,4 +278,25 @@ header nav ul {
     }
 }
 
+/* Responsiveness for Phones in Landscape mode */
+@media screen and (max-height: 400px) and (orientation: landscape) {
+    #intro-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-img {
+        display: none;
+    }
+
+    #main-desc h2 {
+        text-align: center;
+    }
+
+    #main-desc p {
+        text-align: center;
+    }
+}
+
 /* Responsiveness for Phones in portrait mode */
