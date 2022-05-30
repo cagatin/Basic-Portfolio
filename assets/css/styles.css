@@ -260,6 +260,10 @@ header nav ul {
 
 /* Responsiveness for Tablets in portrait mode */
 @media screen and (max-width: 1024px) and (orientation: portrait) {
+    header nav ul {
+        font-size: 200%;
+    }
+
     #intro-container {
         display: flex;
         justify-content: center;
@@ -280,6 +284,13 @@ header nav ul {
 
     #contact-list {
         flex-direction: column;
+    }
+}
+
+/* Responsiveness for tablets in landscape mode */
+@media screen and (max-height: 1024px) and (orientation: landscape) {
+    header nav ul {
+        font-size: 200%;
     }
 }
 
