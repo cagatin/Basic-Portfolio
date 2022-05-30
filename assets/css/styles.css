@@ -106,6 +106,7 @@ header nav ul {
     display: inline-block;
     font-weight: bolder;
     font-size: 250%;
+    line-height: 1.1;
     padding: 2%;
     text-align: left;
     font-family: var(--header-font);
@@ -247,6 +248,7 @@ header nav ul {
     text-decoration: none;
     font-family: var(--header-font);
     color: white;
+    font-size: 125%;
 }
 
 .contact-link:hover {
