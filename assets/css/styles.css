@@ -36,6 +36,10 @@ header h1:hover {
     color: var(--theme-color);
 }
 
+header nav ul a {
+    font-size: 75%;
+}
+
 .nav-item {
     margin: 2%;
 }
