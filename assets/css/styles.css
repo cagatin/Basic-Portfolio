@@ -11,7 +11,7 @@ body {
     background-color: #151b29;
     color: white;
     /* #eaf4f4; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 /* Styles for the Header Section */
@@ -112,6 +112,18 @@ header nav ul {
 }
 
 /* About Me Section */
+.segment-header {
+    font-size: 200%;
+    text-align: center;
+    transition: all 0.1s;
+    margin-bottom: 3%;
+    font-family: var(--header-font);
+}
+
+.segment-header:hover {
+    color: var(--theme-color);
+}
+
 #about-container {
     display: flex;
     flex-direction: column;
@@ -155,18 +167,6 @@ header nav ul {
 }
 
 /* Styling for the Projects section */
-.segment-header {
-    font-size: 200%;
-    text-align: center;
-    transition: all 0.1s;
-    margin-bottom: 2%;
-    font-family: var(--header-font);
-}
-
-.segment-header:hover {
-    color: var(--theme-color);
-}
-
 #projects-container {
     display: grid;
     grid-template-areas:
@@ -182,7 +182,7 @@ header nav ul {
 .project-card {
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 175px;
     width: 100%;
     border: 0.1px solid black;
     margin-bottom: 3%;
@@ -210,6 +210,7 @@ header nav ul {
 
 #card-1 {
     grid-area: a;
+    height: 200px;
     background-image: url("https://images.unsplash.com/photo-1605870445919-838d190e8e1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
 }
 
@@ -234,7 +235,20 @@ header nav ul {
 }
 
 /* Styles for the contact section */
-#contact-container {
+#contact-list {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 2%;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-family: var(--header-font);
+    color: white;
+}
+
+.contact-link:hover {
+    color: var(--theme-color);
 }
