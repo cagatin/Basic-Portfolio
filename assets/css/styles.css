@@ -155,7 +155,7 @@ header nav ul {
 }
 
 /* Styling for the Projects section */
-#projects-header {
+.segment-header {
     font-size: 200%;
     text-align: center;
     transition: all 0.1s;
@@ -163,7 +163,7 @@ header nav ul {
     font-family: var(--header-font);
 }
 
-#projects-header:hover {
+.segment-header:hover {
     color: var(--theme-color);
 }
 
@@ -175,7 +175,8 @@ header nav ul {
         "d d e e";
     gap: 2%;
     border-bottom: var(--bottom-border);
-    padding-bottom: 3%;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .project-card {
@@ -230,4 +231,10 @@ header nav ul {
 #card-5 {
     grid-area: e;
     background-image: url("https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+}
+
+/* Styles for the contact section */
+#contact-container {
+    display: flex;
+    margin-top: 2%;
 }
