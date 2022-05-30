@@ -341,11 +341,9 @@ header nav ul {
 
     #projects-container {
         grid-template-areas:
-            "a a a"
-            "b b b"
-            "c c c"
-            "d d d"
-            "e e e";
+            "a a a a"
+            "b b c c"
+            "d d e e";
         gap: 1%;
     }
 
