@@ -185,7 +185,7 @@ header nav ul {
 .project-card {
     background-size: cover;
     background-position: center;
-    height: 175px;
+    height: 10em;
     width: 100%;
     border: 0.1px solid black;
     margin-bottom: 3%;
@@ -297,6 +297,21 @@ header nav ul {
     #main-desc p {
         text-align: center;
     }
+
+    #projects-container {
+        grid-template-areas:
+            "a a a"
+            "b b b"
+            "c c c"
+            "d d d"
+            "e e e";
+        gap: 1%;
+    }
+
+    #contact-list {
+        flex-direction: column;
+    }
+
 }
 
 /* Responsiveness for Phones in portrait mode */
