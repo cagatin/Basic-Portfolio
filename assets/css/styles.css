@@ -48,7 +48,7 @@ header nav ul a {
     color: var(--theme-color);
 }
 
-#name {
+.name {
     color: var(--theme-color);
     font-family: var(--header-font);
 }
@@ -159,6 +159,7 @@ header nav ul {
 
 .section-heading {
     font-size: 120%;
+    margin-bottom: 1%;
     text-align: center;
     border-right: 1px solid var(--theme-color);
     font-family: var(--header-font);
@@ -171,7 +172,13 @@ header nav ul {
 
 .about-text {
     margin-left: 3%;
-    font-size: 75%;
+    font-size: 90%;
+}
+
+.section-name {
+    color: var(--theme-color);
+    margin-top: 2%;
+    font-size: 120%;
 }
 
 /* Styling for the Projects section */
