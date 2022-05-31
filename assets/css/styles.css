@@ -179,6 +179,7 @@ header nav ul {
     color: var(--theme-color);
     margin-top: 2%;
     font-size: 120%;
+    text-align: center;
 }
 
 /* Styling for the Projects section */
