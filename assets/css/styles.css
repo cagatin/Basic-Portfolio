@@ -227,7 +227,7 @@ header nav ul {
 #card-1 {
     grid-area: a;
     height: 200px;
-    background-image: url(/assets/images/screenshot_main.PNG);
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/277567420_354722513347170_2240661950691541473_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GA6M7nRPSfUAX-MOsyc&_nc_ht=scontent-lax3-1.xx&oh=00_AT8T1staDhnq5zYwWW100OSjh1NTkTZZKEiB0wl3UXF2tw&oe=63161560");
 }
 
 #card-2 {
