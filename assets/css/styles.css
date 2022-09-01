@@ -227,12 +227,12 @@ header nav ul {
 #card-1 {
     grid-area: a;
     height: 200px;
-    background-image: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=821&q=80");
+    background-image: url(/assets/images/screenshot_main.PNG);
 }
 
 #card-2 {
     grid-area: b;
-    background-image: url("https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-image: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=821&q=80");
 }
 
 #card-3 {
